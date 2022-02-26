@@ -1,0 +1,216 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background: #1F2937;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    margin: -10px -10px 0px -10px;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+    align-self: center;
+}
+
+.home {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: "Hero Secondary", "Times New Roman", Roboto
+}
+
+.explore {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: "Hero Secondary", "Times New Roman", Roboto
+}
+
+.about {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: "Hero Secondary", "Times New Roman", Roboto
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background: #1F2937;
+    height: 350px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    column-gap: 2em;
+    margin: 0px -10px 0 -10px;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    font-family: "Hero", "Times New Roman";
+}
+
+.description {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: extra-bold;
+    font-family: "Hero", "Times New Roman";
+    margin-top: -75px;
+}
+
+.title-image {
+    width: 550px;
+    height: 300px;
+}
+
+.sign-up {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    margin-top: -50px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+
+.highlights {
+    text-align: center;
+    font-size: 36px;
+}
+
+.highlights-container {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    height: 550px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.paris-image {
+    width: 300px;
+    height: 200px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.london-image {
+    width: 300px;
+    height: 200px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.maldives-image {
+    width: 300px;
+    height: 200px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.maasai-image {
+    width: 300px;
+    height: 200px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.city-text {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    height: 150px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.city-container {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    height: 50px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin-top: -350px;
+}
+
+.quote {
+    display: flex;
+    height: 300px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    justify-content: center;
+    margin: -10px -10px 0px -10px;
+}
+
+.quote-text {
+    text-align: center;
+}
+
+.author {
+    text-align: right;
+}
+
+.call-box {
+    background-color: white;
+}
+
+.call-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 850px;
+    background-color: #3882F6;
+    font-family: light italic;
+    color: #E5E7EB;
+    margin: 10px 300px 10px 300px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #3882F6;
+    justify-content: space-evenly;
+}
+
+.sign-title {
+    margin-top: -25px;
+}
+
+.call-sign {
+    margin-top: -70px;
+}
+
+.sign-button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border-color: white;
+    margin-top: -50px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    margin: -150px 50px 0px 700px;
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    justify-content: center;
+}
